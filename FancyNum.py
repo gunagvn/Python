@@ -23,7 +23,7 @@ def is_catchy(num_str):
 def generate_fancy_numbers(start, end):
     fancy_numbers = []
     for num in range(start, end + 1):
-        num_str = f"{num:04d}"  # Ensure 4 digit with leading zeros
+        num_str = f"{num:04d}" 
         if is_catchy(num_str):
             fancy_numbers.append(num_str)
     return fancy_numbers
